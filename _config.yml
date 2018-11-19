@@ -1,10 +1,10 @@
 # Site settings
-title: BY Blog
+title: 来年三月
 SEOTitle: 来年三月的博客 | BY Blog
 header-img: img/post-bg-desk.jpg
 email: 1012293013@qq.com
 description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 来年三月的博客, luoxiaoge, 罗传, java, guitar, story"
+keyword: "BY, Shawn, 来年三月的博客, luoxiaoge, 罗传, java, guitar, story"
 url: "http://luoxiaoge.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "http://luoxiaoge.github.io.git" # you code repository
