@@ -7,7 +7,7 @@ description: "Every failure is leading towards success."
 keyword: "BY, BY Blog, 来年三月的博客, luoxiaoge, 罗传, java, guitar, story"
 url: "http://luoxiaoge.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "http://luoxiaoge.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -62,8 +62,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 868b7888c6dc35f2b67d                            #生成的clientID
-  clientSecret: bc6b74517d62efd93370dc344ee7dfe05fae3d82    #生成的clientSecret
+  clientID: 83cc10f02f724ff08110                            #生成的clientID
+  clientSecret: ab2da7861616bd4dd3aacb417df9e6a603b45c68    #生成的clientSecret
   repo: luoxiaoge.github.io    #仓库名称
   owner: luoxiaoge    #github用户名
   admin: luoxiaoge
