@@ -3,7 +3,7 @@
    1 已经搭建好springboot项目
      [springboot官网有demo](https://spring.io/projects/spring-boot#overview)  
    2.使用maven管理jar包 
-   3.源代码地址：https://github.com/luoxiaoge/Springboot2.git
+   3.[源代码地址](https://github.com/luoxiaoge/Springboot2.git)
 
 ### 配置Maven Pom.xml文件 添加依赖
 ```   
