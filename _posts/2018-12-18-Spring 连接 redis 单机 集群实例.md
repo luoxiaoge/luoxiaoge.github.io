@@ -234,5 +234,5 @@ public class redisClusterTest {
 }
 ```
 
-[集群连接](https://www.cnblogs.com/EasonJim/p/7805297.html)
-[搭建单机redis集群](http://blog.51cto.com/moerjinrong/2089118)
+[spring集群连接参考](https://www.cnblogs.com/EasonJim/p/7805297.html)<br>
+[虚拟机cnetos搭建单机redis集群](http://blog.51cto.com/moerjinrong/2089118)
