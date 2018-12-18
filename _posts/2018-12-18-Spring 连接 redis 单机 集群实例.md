@@ -85,7 +85,7 @@
     System.out.println("删除后是否存在key为user的记录:" + jedis.exists("user"));//是否存在key为user的记录
 ```
 
-上面我们可以看到已经可以正常的操作redis了，但是在正常的项我们应该将配置与代码分离。下面将配置放在xml里面并配置redis连接池
+上面我们可以看到已经可以正常的操作redis了，但是在正常的项目我们应该将配置与代码分离。下面将配置放在xml里面并配置redis连接池
 
 redis.properties
 
@@ -115,7 +115,7 @@ spring-redis.xml
     <constructor-arg name="timeout" value="${redis.maxWait}"/>
 </bean>
 ```
-
+下面代码是测试是否连接成功
 redisTest.java
 
 ```java
@@ -136,7 +136,7 @@ public class UserTest {
 }
 ```
 
-接下来就是如何连接集群的redis，其实也比较简单就是配置多个节点。
+接下来就是如何连接集群的redis，其实也比较简单就是配置多个节点，首先是配置文件。
 
 redis-cluster.properties
 
@@ -145,7 +145,7 @@ address=192.168.204.135
 redis.maxIdle=100
 redis.maxTotal=60000
 ```
-
+xml 文件配置多个类
 spring-redisCluster.xml
 
 ```xml
@@ -211,6 +211,7 @@ spring-redisCluster.xml
 </bean>
 ```
 
+测试集群是否连接成功
 TestRedisCluster
 
 ```java
@@ -233,3 +234,5 @@ public class redisClusterTest {
 }
 ```
 
+[集群连接](https://www.cnblogs.com/EasonJim/p/7805297.html)
+[搭建单机redis集群](http://blog.51cto.com/moerjinrong/2089118)
