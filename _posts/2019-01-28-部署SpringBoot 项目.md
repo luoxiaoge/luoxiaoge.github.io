@@ -8,7 +8,8 @@
 
 ```shell
 #!/bin/sh
-nohup  java  -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=7999  - jar  /root/advertising/advertising-web-0.0.1-SNAPSHOT.jar &
+nohup  java  -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=7999  
+-jar  /root/advertising/advertising-web-0.0.1-SNAPSHOT.jar &
 echo $! > /var/run/ad.pid
 tail -f nohup.out
 ```
